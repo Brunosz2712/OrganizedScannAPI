@@ -1,0 +1,6 @@
+@OrganizedScannAPI_HostAddress = http://localhost:5256
+
+GET {{OrganizedScannAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
