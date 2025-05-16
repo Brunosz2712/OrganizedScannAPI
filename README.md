@@ -52,3 +52,51 @@ O OrganizedScann API oferece funcionalidades para:
 ```bash
 git clone https://github.com/seu-usuario/organizedscann-api.git
 cd organizedscann-api
+
+2. Configure a string de conexão Oracle no arquivo appsettings.json:
+
+```{
+  "ConnectionStrings": {
+    "DefaultConnection": "User Id=SEU_USUARIO;Password=SUA_SENHA;Data Source=SEU_SERVIDOR_ORACLE"
+  }
+}
+
+3. Aplique as migrations para criar as tabelas no banco:
+
+```bash
+dotnet ef database update
+
+4. Execute a aplicação localmente:
+
+```bash
+dotnet run
+
+5. Acesse a documentação Swagger no navegador:
+
+```bash
+https://localhost:5001/swagger/index.html
+
+## 📌 Funcionalidades Extras
+Filtro por parâmetros nas rotas GET (ex: GET /api/motorcycle?brand=Honda&year=2020)
+
+Hash de senhas com PasswordHasher do ASP.NET Core para maior segurança
+
+Tratamento global de erros via middleware personalizado
+
+Middleware para validação e autenticação de tokens JWT
+
+## 🛠️ Tecnologias Utilizadas
+ASP.NET Core 7.0
+
+Entity Framework Core 7.0
+
+Oracle Database
+
+JWT para autenticação e autorização
+
+Swagger para documentação da API
+
+C# 11
+
+## 🤝 Contribuição
+RM 94346 Bruno Da Silva Souza 2TDSPG
