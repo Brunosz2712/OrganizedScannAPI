@@ -88,3 +88,5 @@ O OrganizedScann API oferece funcionalidades para:
 ## 🤝 Contribuição
 
 RM 94346 Bruno Da Silva Souza 2TDSPG
+RM 557453 Julio Samuel De Oliveira 2TDSPG
+RM 557598 Leonardo Da Silva Pereira 2TDSPG
